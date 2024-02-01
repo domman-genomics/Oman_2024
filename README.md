@@ -8,7 +8,7 @@ This course will provide training in bioinformatics protocols for pathogen genom
 - Robert Petit III
 
 
-## Timetable - all times local Jordan time (GMT+3)
+## Timetable - all times local Oman time (GMT+3)
 ### Overview
 
 - Module 1 : Introduction to NGS Data and File types
