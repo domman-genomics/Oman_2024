@@ -1,10 +1,11 @@
-# Jordan Next-Generation Sequencing & Bioinformatics Training
+# Oman in person training Feb 2024
 
 ## Course overview
-This course will provide training in bioinformatics protocols for pathogen genomics, with a focus on SARS-CoV-2.
+This course will provide training in bioinformatics protocols for pathogen genomics.
 
 ## Instructor
 - Daryl Domman: [domman.genomics@gmail.com](domman.genomics@gmail.com)
+- Robert Petit III
 
 
 ## Timetable - all times local Jordan time (GMT+3)
