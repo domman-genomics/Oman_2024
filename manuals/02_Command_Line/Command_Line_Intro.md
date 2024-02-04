@@ -104,7 +104,4 @@ du -sh * | sort -hr | head -5
 
 `du -sh *` estimates file and directory space usage. The output is piped into `sort -hr`, which sorts the results in human-readable format in reverse order (largest first). Finally, `head -5` takes the top 5 lines from the sorted output, effectively showing the 5 largest files or directories.
 
-Remember, the power of the command line comes from the ability to chain commands together to perform complex tasks with a single line of code.
-```
-
-These examples demonstrate the power of piping commands together in bash.
+##### Remember, the power of the command line comes from the ability to chain commands together to perform complex tasks with a single line of code.

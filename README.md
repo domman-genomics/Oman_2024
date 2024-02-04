@@ -5,17 +5,15 @@ This course will provide training in bioinformatics protocols for pathogen genom
 
 ## Instructor
 - Daryl Domman: [domman.genomics@gmail.com](domman.genomics@gmail.com)
-- Robert Petit III
+- Robert Petit III: [robbie.petit@gmail.com] (robbie.petit@gmail.com )
 
 
 ## Timetable - all times local Oman time (GMT+3)
 ### Overview
 
-- Module 1 : Introduction to NGS Data and File types
-  - [Lecture Slides](lectures/01_Domman_Intro_to_NGS.pdf) 
-  - [Online Manual](manuals/01_Intro_to_NGS/module_Intro.md)
-- Module 2 : Introduction to working on the command line and virtual machine
+- Module 1 : Command line refresher
   - [Lecture Slides](lectures/2_Command_line.pdf)
+  - [Command line cheat-sheet](manuals/02_Command_Line/Command_Line_Intro.md)
   - [Online Manual](manuals/02_Command_Line/Command_Line_Intro.md)
 - Module 3 : Illumina data QC 
   - [Lecture Slides](lectures/03_Data_QC.pdf)
