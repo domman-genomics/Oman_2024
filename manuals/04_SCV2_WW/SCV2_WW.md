@@ -90,7 +90,7 @@ We need to make a config file for nextflow using exactly this.
 
 I would suggest just copy and pasting this into a file using `nano`:
 
-`nano WW_options.config`
+`nano cecret.config`
  - paste in the above paramaters. 
  - to save type `CTRL+O`
  - to exit type `CTRL+X`
@@ -102,7 +102,7 @@ nextflow run UPHL-BioNGS/Cecret -c cecret.config --sample_sheet samplesheet.csv 
 ```
 Let's break it down:
 
-- `nextflow run`: This is the command to execute a Nextflow pipeline. Nextflow is a workflow management system that allows you to define and run complex data analysis pipelines.
+- `nextflow run`: This is the command to execute a Nextflow pipeline.
 
 - `UPHL-BioNGS/Cecret`: This is the name of the Nextflow pipeline that you want to run. It refers to a specific pipeline defined in the repository `UPHL-BioNGS/Cecret`.
 
@@ -119,3 +119,17 @@ Let's break it down:
 
 **You should see something like the following:**
 ![Cecret](figs/Cecret.png)
+
+
+### 4. Output of Cecret
+
+The output folder is by default called `cecret`.
+
+Explore the output folder to see all the individual outputs files.
+
+Probably the most important ones are these:
+- `cecret_results.csv`
+- `multiqc/multiqc_report.html`
+
+Look at the output in the  `Freyja` folder:
+- summary results: `aggregated-freyja.tsv`
