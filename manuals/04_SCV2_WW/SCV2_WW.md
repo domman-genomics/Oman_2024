@@ -133,3 +133,9 @@ Probably the most important ones are these:
 
 Look at the output in the  `Freyja` folder:
 - summary results: `aggregated-freyja.tsv`
+
+### 5. Looking at Freyja
+Freyja has become the de-facto program for analyzing mixtures of SARS-CoV-2 populations within mixed samples, such as wastewater. 
+
+Here is the Github repo for Freyja so we can dive a bit deeper:  
+https://github.com/andersen-lab/Freyja
