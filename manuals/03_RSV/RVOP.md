@@ -59,7 +59,53 @@ less taxprofiler_samplesheet.csv
 ```
 
 #### 2. Database sheet creation
-`taxprofiler` also needs a database sheet that tells the program which databases are downloaded and where to find the files. 
+`taxprofiler` also needs a `database.csv` file that tells the program which databases are downloaded and where to find the files. 
+
+The `database.csv` file has the following format:
+```bash
+tool,db_name,db_params,db_path
+kraken2,db2,--quick,/<path>/<to>/kraken2/testdb-kraken2.tar.gz
+metaphlan,db1,,/<path>/<to>/metaphlan/metaphlan_database/
+```
+
+Please make the 
+
+```
+tool,db_name,db_params,db_path
+kraken2,k2_standard_16gb,,kraken2_databases/k2_standard_16gb_20231009.tar.gz
+```
+
+```bash
+nextflow run nf-core/taxprofiler \
+   -profile docker \
+   --input taxprofiler_samplesheet.csv \
+   --databases databases.csv \
+   --outdir taxprofiler_results  \
+   --run_kraken2 \
+   --max_cpus 4 \ 
+   --max_memory '16.GB'
+```
 
 
+## Run viralrecon pipeline
 
+```bash
+python make_samplesheet.py fastqs/
+```
+
+```bash
+nextflow run nf-core/viralrecon \
+    --input samplesheet.csv \
+    --platform illumina \
+    --outdir RSV_output \
+    --fasta reference_genomes/RSV_AB.fasta \
+    --protocol metagenomic \
+    -profile docker \
+    --max_cpus 4 \
+    --max_memory 30.GB \
+    --skip_nextclade \
+    --skip_abacas \
+    --skip_pangolin \
+    --skip_consensus_plots \
+    -resume
+```
