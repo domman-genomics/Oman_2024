@@ -18,16 +18,36 @@ The `nf-flu` pipeline, developed by CFIA-NCFAD, is a Nextflow bioinformatics ana
 Let's first test to see if the pipeline is working
 
 For Illumina:
+
 ```bash
 nextflow run CFIA-NCFAD/nf-flu -profile test_illumina,docker --max_cpus 2
 ```
 
 For Nanopore:
+
 ```bash
 nextflow run CFIA-NCFAD/nf-flu -profile test_nanopore,docker --max_cpus 2
 ```
 
-#### Pipeline output
-There is excellent documentation onf the output of the pipeline, so I will direct you there rather than repeat most of it here:
+### Pipeline output
+
+There is excellent documentation on the output of the pipeline, so I will direct you there rather than repeat most of it here:
 https://github.com/peterk87/nf-flu/blob/master/docs/output.md
 
+#### 1. Summary report: nf-flu-subtyping-report.xlsx
+
+- gives summary of all findings
+- H and N Subtyping of all samples
+
+![Report](figs/summary.png)
+
+#### 2. Multiqc report
+
+- graphical summary of many stats
+- typically per segment per sample
+![multiqc](figs/mutiqc.png)
+
+#### 3. Conesnsus genomes
+- Found in the `conensus` folder
+- `irma` contains the de-novo assembly consensus genomes
+- `bcftools` contains the reference-based (mapping) consensus genomes 
