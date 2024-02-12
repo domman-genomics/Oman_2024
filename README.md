@@ -17,7 +17,10 @@ This course will provide training in bioinformatics protocols for pathogen genom
   - [Online Manual](manuals/01_Command_Line/Command_Line_Intro.md)
 
 - Module 2: Influenza genomics
-
+  - [Online Manual](manuals/02_Flu/Flu_pipeline.md)
+  
 - Module 3: RSV genomics
+  - [Online Manual](manuals/03_RSV/RVOP.md)
 
 - Module 4: Wastewater surveillance for SARS-CoV-2
+  - [Online Manual](manuals/04_SCV2_WW/SCV2_WW.md)
