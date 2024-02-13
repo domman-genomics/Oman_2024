@@ -13,8 +13,8 @@ This course will provide training in bioinformatics protocols for pathogen genom
 
 - Module 1 : Command line refresher
   - [Lecture Slides](lectures/2_Command_line.pdf)
-  - [Command line cheat-sheet](manuals/01_Command_Line/Command_Line_Intro.md)
-  - [Online Manual](manuals/01_Command_Line/Command_Line_Intro.md)
+  - [Command line cheat-sheet](manuals/01_Command_Line/Command_Line_Refesher.md)
+  - [Online Manual](manuals/01_Command_Line/Command_Line_module.md)
 
 - Module 2: Influenza genomics
   - [Online Manual](manuals/02_Flu/Flu_pipeline.md)
