@@ -51,3 +51,9 @@ https://github.com/peterk87/nf-flu/blob/master/docs/output.md
 - Found in the `conensus` folder
 - `irma` contains the de-novo assembly consensus genomes
 - `bcftools` contains the reference-based (mapping) consensus genomes 
+
+
+### Running the pipeline
+
+#### 1. Copy the make_samplesheet.py script
+- 

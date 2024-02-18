@@ -29,6 +29,8 @@ cd ../
 ```
 ### Running Taxprofiler
 
+Website here: [https://nf-co.re/taxprofiler/1.1.5] 
+
 #### 1. Samplesheet creation
 Like nearly all nextflow pipelines we need to create a samplesheet for `taxprofiler`
 
@@ -109,3 +111,4 @@ nextflow run nf-core/viralrecon \
     --skip_consensus_plots \
     -resume
 ```
+
